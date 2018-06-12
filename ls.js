@@ -1,4 +1,4 @@
-const fs=require('fs');
+const fs = require('fs');
 
 function ls() {
   fs.readdir('./', 'utf8', (err, files) => {
